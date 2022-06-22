@@ -11,20 +11,20 @@ Steve wants a summary of how each stock performed over each year, including the 
 Using VBA in Excel, a process was created to analyze all stocks.  While the code was more readable, it was discovered that the run time for the code was somewhat lengthy.  This could create problems if the same code is used to analyze a larger set of stocks.  Therefore, a refactored version of the same process was created.  
 
 ### All Stocks Analysis (Original)
-VBA Code was written where the Stock Year is inputted to initiate the analysis.  A Time is set to check the performance of the analysis.  With over 3,000 rows of data, the run time for each year is roughly 0.8 seconds.
+VBA Code was written where the Stock Year is inputted to initiate the analysis.  A Timer is set to check the performance of the analysis.  With over 3,000 rows of data, the run time for each year is roughly 0.8 seconds.
 
 ![All_Stocks_2017_Original](https://user-images.githubusercontent.com/106561880/174915710-79c518cd-66ac-43a6-8214-506285c8d0f2.png)
 ![All_Stocks_2018_Original](https://user-images.githubusercontent.com/106561880/174915728-d7d980b0-c8e3-4207-95e1-d2bddc8b22a0.png)
 
 
 ### All Stocks Analysis (Refactored)
-To decrease the run time, the AllStocksAnalysis VBA code was copied and edited.  Additional arrays and variables were created to reference within the code to avoid repetitive steps.  Refactored run times fell to less than 0.06 seconds.
+To decrease the run time, the AllStocksAnalysis VBA code was copied and refactored to make the subroutine more efficient.  Additional arrays and variables were created to reference within the code to avoid repetitive steps.  Refactored run times fell to less than 0.06 seconds.
 
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/106561880/174915743-4f35fc05-a99b-44c9-9bfd-743f1d77ef44.png)
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/106561880/174915748-c1b8cb65-c413-43e3-b8ac-0144f8065b5f.png)
 
 ### Challenges and Difficulties Encountered
-Creating the refactored code eliminated the need for nested loops.  In order to accomplish this, certain sections of the code had to be reordered or rewritten based on new logic.  New code had to go through more debugging in order to work.
+Creating the refactored code eliminated the need for nested loops.  In order to accomplish this, certain sections of the code had to be reordered or rewritten based on the new logic using additional variables and arrays.  New code had to go through more debugging in order to work.
 
 ## Results
 
