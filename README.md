@@ -24,7 +24,7 @@ To decrease the run time, the AllStocksAnalysis VBA code was copied and refactor
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/106561880/174915748-c1b8cb65-c413-43e3-b8ac-0144f8065b5f.png)
 
 ### Challenges and Difficulties Encountered
-Creating the refactored code eliminated the need for nested loops.  In order to accomplish this, certain sections of the code had to be reordered or rewritten based on the new logic using additional variables and arrays.  New code had to go through more debugging in order to work.
+Creating the refactored code eliminated the need for nested loops in this case.  However, in order to accomplish this, certain sections of the code had to be reordered or rewritten based on the new logic using additional variables and arrays.  New code had to go through more debugging in order to work properly.
 
 ## Results
 
