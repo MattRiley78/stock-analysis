@@ -27,6 +27,8 @@ To decrease the run time, the AllStocksAnalysis VBA code was copied and refactor
 Creating the refactored code eliminated the need for nested loops in this case.  However, in order to accomplish this, certain sections of the code had to be reordered or rewritten based on the new logic using additional variables and arrays.  New code had to go through more debugging in order to work properly.
 
 ## Results
+![2017_Results](https://user-images.githubusercontent.com/106561880/174927924-c2739468-f837-4e70-b94a-1ded9caf2a36.png)
+![2018_Results](https://user-images.githubusercontent.com/106561880/174927933-cfc23156-44ea-4500-bbbe-aa889650ccd0.png)
 
 - Steve's parents' favorite stock DQ performed well in 2017 but also took a significant loss in 2018.
 
