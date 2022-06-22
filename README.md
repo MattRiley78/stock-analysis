@@ -1,7 +1,7 @@
 # Green Energy Stocks Analysis with VBA
 
 ## Overview of Project
-Steve's parents are wanting to invest in Green Energy and have requested information on stock DQ.  Steve is concerned about DQ stock and needs an analysis of other Green stocks so they can diversify their funds.  Steve has compiled stock data from 12 different Green stocks for two different years.  This includes closing prices for each close date for each stock for both years.
+Steve's parents are wanting to invest in Green Energy and have requested information on stock DQ.  Steve is concerned about DQ stock and needs an analysis of other Green stocks so they can diversify their funds.  Steve has compiled stock data from 12 different Green stocks for two different years, including stock DQ.  This includes closing prices for each close date for each stock for both years.
  
 
 ### Purpose
